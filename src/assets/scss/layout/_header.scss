@@ -1,44 +1,10 @@
-#brand-img {
-    background-image: url(../../images/icons8-calculator-1001.svg);
-    background-position: center;
-    background-clip: border-box;
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    &:hover {
-        background-image: url(../../images/icons8-calculator-100.svg);
-        height: 50px;
-        width: 50px;
-    }
-}
-
-
 .nav {
-    .nav-item {
+    .nav-item .nav-link {
+        color: white;
 
-        .nav-link {
-            color: white;
-            #brand-img {
-                background-image: url(../../images/icons8-calculator-1001.svg);
-                background-position: center;
-                background-clip: border-box;
-                background-size: cover;
-                height: 50px;
-                width: 50px;
-                &:hover {
-                    background-image: url(../../images/icons8-calculator-100.svg);
-                    height: 50px;
-                    width: 50px;
-                }
-            }
-            &:hover  {
-                color: #FCC419;
-                #brand-img:hover {
-                    background-image: url(../../images/icons8-calculator-100.svg);
-                    height: 50px;
-                    width: 50px;
-                }
-            }
+        &:hover {
+            color: #FCC419;
+
         }
     }
 }
