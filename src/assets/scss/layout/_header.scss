@@ -1,4 +1,10 @@
+.active {
+    color:#FCC419 !important;
+}
 .nav {
+    @media only screen and (max-width: 576px) {
+        --bs-nav-link-padding-x: 0.5rem !important;
+    }
     .nav-item .nav-link {
         color: white;
         cursor: pointer;
@@ -15,10 +21,4 @@
             }
         }
     }
-}
-
-.active {
-    // background-color: blue;
-    color:#FCC419;
-    font-weight: bold;
 }
