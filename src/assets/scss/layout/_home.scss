@@ -1,0 +1,24 @@
+.brand-name {
+    font-size: 3.5rem;
+    @media only screen and (max-width: 992px) {
+
+        font-size: 2.5rem;
+    }
+}
+.brand-desc {
+    font-size: 1.4rem;
+    @media only screen and (max-width: 992px) {
+
+        font-size: 1rem;
+    }
+}
+.brand-image  img{
+    // height: 100%;
+    @media only screen and (max-width: 992px) {
+
+        height: 500px;
+    }
+    @media only screen and (min-width: 993px) {
+        height: 100%;
+    }
+}
