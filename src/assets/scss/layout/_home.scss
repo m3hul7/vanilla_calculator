@@ -12,13 +12,6 @@
         font-size: 1rem;
     }
 }
-.brand-image  img{
-    // height: 100%;
-    @media only screen and (max-width: 992px) {
-
-        height: 500px;
-    }
-    @media only screen and (min-width: 993px) {
-        height: 100%;
-    }
+.brand-image img{
+    height: 600px;
 }

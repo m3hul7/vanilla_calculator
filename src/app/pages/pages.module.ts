@@ -5,6 +5,8 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { HomeComponent } from './home/home.component';
+import { SupportComponent } from './support/support.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -13,6 +15,8 @@ import { HomeComponent } from './home/home.component';
     PagesComponent,
     PrivacyComponent,
     HomeComponent,
+    SupportComponent,
+    AboutComponent,
 
   ],
   imports: [
